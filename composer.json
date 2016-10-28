@@ -1,0 +1,25 @@
+{
+    "name": "butterfly/transliterator",
+    "type": "library",
+    "description": "Butterfly PHP. Transliterator Component",
+    "keywords": ["Transliterator"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marat Fakhertdinov",
+            "email": "marat.fakhertdinov@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Butterfly\\Component\\Transliterator\\": "src/",
+            "Butterfly\\Component\\Transliterator\\Tests\\": "tests/unit/"
+        }
+    }
+}
